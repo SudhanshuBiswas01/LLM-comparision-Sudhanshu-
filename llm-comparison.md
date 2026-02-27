@@ -92,15 +92,13 @@ Best - Claude provides specific scale numbers, Google's proprietary tech (Maglev
 | Fastest useful response            | **N/A**            | Cannot determine from documents provided; no timestamps or response time metrics included.                                                                                                                                   |
 
 
-| Dimension                          | Winner (LLM #) | Why? (1 sentence)        |
-|------------------------------------|-----------------|--------------------------|
-| Most technically specific overall  |                 |                          |
-| Best at naming real technologies   |                 |                          |
-| Least hallucination / made-up info |                 |                          |
-| Best at "hardest problem" insight  |                 |                          |
-| Best structured output             |                 |                          |
-| Fastest useful response            |                 |                          |
-
 ## Key Observation
 > One thing I noticed about how different LLMs handle the same prompt:
-> ___ (write 2-3 sentences)
+LLM 3 (Claude) significantly outperforms the others in technical depth, specificity, and intellectual honesty. It demonstrates:
+Deep familiarity with Google's published research (Covington et al. 2016, Zhao et al. 2019)
+Understanding of internal Google infrastructure (Borg, Monarch, Maglev, Spanner, Colossus)
+Sophisticated ML engineering knowledge (MMoE, DCN, ScaNN, IPS correction)
+Rigorous epistemic standards (explicit confidence labeling, distinguishing inference from speculation)
+LLM 1 (Gemini) is competent but occasionally vague and includes some seemingly fabricated formatting artifacts (Korean characters, "brr" noises).
+LLM 2 (ChatGPT) provides the most generic response, relying on industry-standard terms without the specific technical depth or internal system knowledge demonstrated by Claude.
+
