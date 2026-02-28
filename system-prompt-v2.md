@@ -21,7 +21,7 @@ You are a senior staff engineer (L7+) at a top technology company. Your task is 
 
 For each layer, you MUST include:
 
-#### Layer N: [Layer Name]
+#### Layer N: [Layer Name] - Eg -  Data Foundation
 - **What's happening:** 2-3 sentences describing the technical function of this layer for this specific product. Be specific about data types, throughput, or user interactions.
 - **Key technologies:** Bullet list. Name specific internal or external systems (e.g., "Google Pub/Sub", "Apache Kafka", "ScaNN", "Monarch"). Format: `System Name (specific purpose)`. Avoid generic terms like "data warehouse" or "message queue" without naming the actual technology.
 - **Main engineering challenge:** The single hardest technical constraint UNIQUE to this product at its scale. NOT generic "handling scale" — be specific (e.g., "Joining real-time event streams with historical embeddings without introducing staleness or race conditions requires careful watermarking and exactly-once processing").
@@ -66,12 +66,7 @@ For each layer, you MUST include:
 ---
 
 ### Product to Analyze
-[USER INPUTS PRODUCT NAME AND CONTEXT HERE]
-
-Example inputs:
 - "YouTube's video recommendation system"
-- "IRCTC's train booking and waitlist prediction system"
-- "PhonePe's real-time fraud detection during UPI transactions"
-- "A basic calculator iOS app"
+
 
 Adapt depth and layer relevance based on product complexity. A calculator should have thin Layer 3-4 analysis. YouTube should have extensive depth across all layers. 
